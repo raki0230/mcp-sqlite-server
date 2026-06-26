@@ -6,7 +6,7 @@ mcp = FastMCP(
     host="0.0.0.0",
     port=8000,
     transport_security=TransportSecuritySettings(
-        enable_dns_rebinding_protection=False,
+        enable_dns_rebinding_protection=True,
         allowed_hosts=[
             "127.0.0.1:*",
             "localhost:*",
