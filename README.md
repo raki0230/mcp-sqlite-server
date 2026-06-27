@@ -130,7 +130,7 @@ INFO:     Application startup complete.
 INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
 ```
 
-![alt text](image.png)
+![alt text](docs/images/image.png)
 
 ---
 
@@ -145,7 +145,7 @@ $env:DANGEROUSLY_OMIT_AUTH="true"
 npx @modelcontextprotocol/inspector
 ```
 
-![alt text](mcp_inspector.png)
+![alt text](docs/images/mcp_inspector.png)
 
 Configure:
 
@@ -156,9 +156,9 @@ Configure:
 
 Click **Connect** to discover all available tools.
 
-![alt text](mcp_inspector_ui.png)
+![alt text](docs/images/mcp_inspector_ui.png)
 
-![alt text](mcp_inspector_tools.png)
+![alt text](docs/images/mcp_inspector_tools.png)
 *MCP Inspector connected and displaying registered tools*
 
 ---
@@ -167,13 +167,13 @@ Click **Connect** to discover all available tools.
 
 Add the deployed MCP Server to your Claude Desktop connectors.
 
-![alt text](claude_connector.png)
+![alt text](docs/images/claude_connector.png)
 
 Restart Claude Desktop.
 
 Once connected, Claude can invoke the registered SQLite tools directly through MCP.
 
-![alt text](claude_search_country.png)
+![alt text](docs/images/claude_search_country.png)
 
 *Claude Desktop successfully calling SQLite MCP tools*
 
@@ -190,9 +190,9 @@ Deployment Highlights:
 * Streamable HTTP Transport
 * Ready for Claude Desktop Integration
 
-![alt text](render_logs.png)
+![alt text](docs/images/render_logs.png)
 
-![alt text](render_build_logs.png)
+![alt text](docs/images/render_build_logs.png)
 
 *Render dashboard showing successful deployment*
 
